@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget { // Widget MyApp
       ),
       // home - Propriedade principal do MaterialApp, pois cria a HomePage/Primeira tela do App.
       // HomePage - Instanciando a classe/widget do arquivo "home_page.dart"
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
